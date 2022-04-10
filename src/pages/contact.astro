@@ -1,0 +1,87 @@
+---	
+	import Footer from '../components/footer.astro';
+	import Header from '../components/header.astro';
+	import NavBar from '../components/navbar.astro';
+---
+
+<!DOCTYPE html>
+<html>
+
+<Header/>
+
+<body>
+
+	<NavBar/>
+
+    <div class="content">
+        <header class="center line-spacing">
+            <h1 class="p-italic fade-in">Contactame</h1>
+        </header>
+
+        <main class="mt-4">
+
+            <div class="row">
+
+                <div class="col-md-6 justify fade-in card">
+
+                    <div class="m-2">
+                        <div class="center padding-10">Formulario de contacto</div>
+                        <form class="form">
+
+                            <div class="form-group">
+                                <div class="padding-5">
+                                <label>Nombre</label>
+                                </div>
+
+                                <div class="padding-5">
+                                <input type="text" name="nombre" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="padding-5">
+                                <label>Email</label>
+                                </div>
+
+                                <div class="padding-5">
+                                <input class="form-control" type="email" name="email">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="padding-5">
+                                <label>Mensaje</label>
+                                </div>
+
+                                <div class="padding-5">
+                                <textarea class="form-control" rows="5" cols="30" name="mensaje"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="padding-5">
+                                <input type="submit" class="form-button button" value="Enviar">
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 card fade-in">
+                    <div>
+                        <img class="cursor-img" src="/assets/imgs/click.gif">
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Fin contenido -->
+
+    <!-- Inicio footer -->
+	<Footer/>
+    <!-- fin footer -->    
+    
+</body>
+</html>

@@ -1,0 +1,52 @@
+---	
+	import Footer from '../components/footer.astro';
+	import Header from '../components/header.astro';
+	import NavBar from '../components/navbar.astro';
+---
+
+<!DOCTYPE html>
+<html>
+
+<Header/>
+
+<body>
+
+	<NavBar/>
+
+    <div class="content">
+        <header class="center line-spacing">
+            <h1>Servicios Profesionales</h1>
+        </header>
+
+        <main class="imgs-container mt-4">
+            <section class="justify">
+                <p class="line-spacing">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+
+            <div class="row">
+                <div class="px-4 col-md-4">
+                    <img class="animated-img" src="/assets/imgs/learn.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+
+                <div class="px-4 col-md-4">
+                    <img class="animated-img" src="/assets/imgs/legal.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+
+                <div class="px-4 col-md-4">
+                    <img class="animated-img" src="/assets/imgs/mind.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Fin contenido -->
+
+    <!-- Inicio footer -->
+	<Footer/>
+    <!-- fin footer -->    
+    
+</body>
+</html>
